@@ -40,3 +40,6 @@ name = "psbt"
 
 [[example]]
 name = "xpub_descriptors"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
